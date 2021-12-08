@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to left, rgb(204, 196, 91), lightblue);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.headerh2{
+    color: steelblue;
+    margin-top: 22px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.logoimg{
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.headerul{
+    margin: 0 0 0 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.headerul li{
+    margin: 0 16px;
+    font-size: 18px;
+}
+.headerul a{
+    text-decoration: none;
+    color: black;;
+}
+.loginimg{
+    width: 30px;
+    height: 20px;
+}
+.loginbutton{
+    background-color: white;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 22px 0 0 120px;
+    border: 0px solid;
+}
+
+.container button{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.loginlink{
+    text-decoration: none;
+    
+}
+.signupbutton{
+    background-color: white;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 22px 0 0 0;
+    border: 0px solid;
+    background-color: teal;
+    color: white;
+    width: 80px;
+    border-radius: 100%;
+}
+.signuplink{
+    text-decoration: none;
+    
+}
