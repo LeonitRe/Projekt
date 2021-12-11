@@ -19,7 +19,6 @@ header.header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: white;
 }
 .headerh2{
     margin-top: 22px;
@@ -41,6 +40,9 @@ header.header{
 .headerul li{
     margin: 0 16px;
     font-size: 20px;
+}
+.headerul a:hover{
+    color: lightblue;
 }
 .headerul a{
     text-decoration: none;
@@ -65,8 +67,7 @@ header.header{
     align-items: center;
 }
 .loginlink{
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .signupbutton{
     background-color: white;
@@ -79,10 +80,18 @@ header.header{
     background-color: teal;
     color: white;
     width: 90px;
-    border-radius: 10%;
+    border-radius: 7px;
 }
 .signuplink{
     text-decoration: none;
+}
+
+.loginbutton:hover{
+    color: lightblue;
+}
+.signupbutton:hover{
+    color: white;
+    background-color: lightblue;
 }
 
 .menudiv{

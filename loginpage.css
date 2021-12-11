@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.ytimg.com/vi/vNaFGCpXVtQ/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.userlogo{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 35px 9px rgba(62, 93, 231, 0.75);
+}.form input{
+    width: 250px;
+    height: 35px;
+}
+input:focus
+{
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    outline: none;
+}
+h2{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+.email{
+    position: absolute;
+    left: 80px;
+    top: 130px;
+    border-radius: 7px;
+    border: hidden;
+}
+.password{
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    border-radius: 7px;
+    border: hidden;
+}
+
+.login{
+    position: absolute;
+    top: 320px;
+    left: 80px;
+    width: 280px;
+    height: 40px;
+    border: hidden;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(9, 122, 187);
+    font-size: 17px;
+}
+.login:hover{
+    color: white;
+    background-color: rgb(42, 159, 236);
+}
+p{
+    position: absolute;
+    top: 370px;
+    left: 80px;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
