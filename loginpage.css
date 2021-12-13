@@ -2,11 +2,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('https://i.ytimg.com/vi/vNaFGCpXVtQ/maxresdefault.jpg');
+    background-image: url('https://user.mockplus.com/images/login-bg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: 'Nunito', sans-serif;
 }
+
 form{
     display: flex;
     justify-content: center;
@@ -25,7 +26,8 @@ form{
     position: absolute;
     top: 90px;
     background-color: white;
-    box-shadow: 0px 0px 35px 9px rgba(62, 93, 231, 0.75);
+    box-shadow: 0px 0px 35px 1px black;
+    border-radius: 30px;
 }.form input{
     width: 250px;
     height: 35px;
@@ -47,6 +49,7 @@ h2{
     top: 130px;
     border-radius: 7px;
     border: hidden;
+    padding-left: 20px;
 }
 .password{
     position: absolute;
@@ -54,6 +57,7 @@ h2{
     left: 80px;
     border-radius: 7px;
     border: hidden;
+    padding-left: 20px;
 }
 
 .login{
@@ -79,5 +83,9 @@ p{
 }
 .link{
     text-decoration: none;
+    color: blue;
+    color: black;
+}
+.link:hover{
     color: blue;
 }
