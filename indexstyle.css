@@ -20,6 +20,7 @@ header.header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .headerh2{
     margin-top: 22px;
@@ -94,7 +95,9 @@ header.header{
     color: white;
     background-color: lightblue;
 }
-
+.menumain{
+    z-index: 0;
+}
 .menudiv{
     background: linear-gradient(to top, blue, white);
     height: 600px;
@@ -169,4 +172,242 @@ header.header{
     text-shadow: 1px 1px black;
     margin-left: 120px;
     margin-top: -45px;
+}
+
+.contactform{
+    width: 99.8%;
+    height: 120vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    width: 50%;
+    height: 120 vh;
+}
+.contacth2{
+    font-size: xx-large;
+    margin-left: 13%;
+    margin-top: 70px;
+}
+.fullname{
+    width: 350px;
+    height: 40px;;
+    margin-left: 13%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color:#D3D3D3;
+    border: hidden;
+    border-radius: 10px;
+
+}
+.email{
+    width: 350px;
+    height: 40px;
+    margin-left: 13%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #D3D3D3;
+    border: hidden;
+    border-radius: 10px;
+
+}
+.number{
+    width: 350px;
+    height: 40px;
+    margin-left: 13%;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #D3D3D3;
+    border: hidden;
+    border-radius: 10px;
+  
+}
+.message{
+    width: 350px;
+    height: 200px;
+    margin-left: 13%;
+    padding-left: 15px;
+    font-size: 12px;
+    background-color: #D3D3D3;
+    border: hidden;
+    border-radius: 10px;
+ 
+  
+}
+
+input:focus{
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    outline: none;
+    background-color: white;
+}
+.button1{
+    width: 130px;
+    height: 50px;    
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: hidden;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+}
+.button1:hover{
+    color: white;
+    background-color: lightblue;
+}
+.loc{
+    width: 50%;
+    height: 100vh;
+}
+.map{
+    width: 500px;
+    height: 250px;
+}
+.infoh2{
+    font-size: xx-large;
+    margin-top: 70px;
+}
+.location{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.streetimg{
+    width: 30px;
+    height: 30px;
+}
+.d1{
+    width: 20px;
+}
+.d2{
+    width: 420px; 
+    margin-left: 20px;
+
+}
+.streetp{
+    font-size: 17px;
+}
+.inboxdiv{
+    width: 100%px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.divimg{
+    width: 30px;
+    margin-left: -5px;
+}
+.emailtext{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.inboximg{
+    width: 40px;
+    height: 35px;
+}
+.linkemail{
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 15px;
+    color: black;
+}
+.linkemail:hover{
+    text-decoration: underline;
+}
+.pnumberdiv{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 6px;
+}
+.phoneimgdiv{
+    width: 35px;
+    margin-left: -5px;
+}
+.phonenumber{
+ 
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+
+}
+.phoneimg{
+    width: 35px;
+    height: 30px;
+    margin-left: 3px;
+}
+.socialm{
+    width: 99.8%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.design{
+    width: 30%;
+    height: 50px;
+}
+.medias{
+    width: 30%;
+    height: 50px;
+}
+.designp{
+    font-size: 17px;
+}
+.designlink{
+    margin-left: 10px;
+    color: blue;
+}
+.links{
+    font-size: 17px;
+}
+.medias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.facebook{
+    width: 33px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.google{
+    width: 46px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.github{
+    width: 40px;
+    height: 37px;
+    margin-left: 15px;
+}
+#logos:hover{
+    color: lightblue;
+}
+.footer{
+    z-index: 0;
 }

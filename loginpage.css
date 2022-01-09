@@ -53,7 +53,7 @@ h2{
 }
 .password{
     position: absolute;
-    top: 190px;
+    top: 200px;
     left: 80px;
     border-radius: 7px;
     border: hidden;
@@ -88,4 +88,16 @@ p{
 }
 .link:hover{
     color: blue;
+}
+.incorrectemail{
+    position: absolute;
+    top: 175px;
+    left: 100px;
+    font-size: 13px;
+}
+.incorrectpassword{
+    position: absolute;
+    left: 100px;
+    top: 245px;
+    font-size: 13px;
 }

@@ -19,7 +19,6 @@ body{
     position: absolute;
     top: 90px;
     background-color: white;
-    background-color: white;
     box-shadow: 0px 0px 35px 1px black;
     border-radius: 30px;
 }
@@ -119,4 +118,34 @@ p a{
 }
 p a:hover{
     color: blue;
+}
+.Firstname{
+    position: absolute;
+    top: 173px;
+    font-size: small;
+    left: 70px;
+}
+.Lastname{
+    position: absolute;
+    top: 173px;
+    left: 240px;
+    font-size: small;
+}
+.Email{
+    position: absolute;
+    top: 245px;
+    left: 70px;
+    font-size: small;
+}
+.Fpassword{
+    position: absolute;
+    top: 313px;
+    left: 70px;
+    font-size: small;
+}
+.pwc{
+    position: absolute;
+    font-size: small;
+    left: 240px;
+    top: 313px;
 }
