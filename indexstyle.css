@@ -22,22 +22,20 @@ header.header{
     top: 0;
     z-index: 1;
 }
-.headerh2{
-    margin-top: 22px;
-    font-size: 25px;
-    margin-top: 25px;
-}
 .logoimg{
-    height: 80px;
-    margin-left: 50px;
-    margin-right: 5px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: red;
 }
+
 .headerul{
-    margin: 0 0 0 40px;
+    margin: 0 0 0 15px;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 .headerul li{
     margin: 0 16px;
@@ -99,7 +97,7 @@ header.header{
     z-index: 0;
 }
 .menudiv{
-    background: linear-gradient(to top, blue, white);
+    background: linear-gradient(to top, blue, #AFEEEE);
     height: 600px;
     font-size: 18px;
     display: flex;
@@ -110,7 +108,7 @@ header.header{
     margin-top: 160px;
     margin-left: 40px;
     color: white;
-    text-shadow: 1.2px 1.2px black;
+    font-size: 50px;
 }
 .presentationdiv{
     height: 60px;
@@ -147,7 +145,6 @@ header.header{
     color: white;
     margin-top: 35px;
     font-size: 21px;
-    text-shadow: 1px 1px black;
 }
 .seconddiv{
     width: 650px;
@@ -169,7 +166,6 @@ header.header{
 .presentationp{
     color: white;
     font-size: 21px;
-    text-shadow: 1px 1px black;
     margin-left: 120px;
     margin-top: -45px;
 }
