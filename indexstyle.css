@@ -15,6 +15,23 @@ html{
     display: flex;
     flex-direction: row;
     background-color: white;
+    justify-content: space-around;
+}
+.logopage{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
 }
 header.header{
     position: -webkit-sticky;
@@ -24,18 +41,13 @@ header.header{
 }
 .logoimg{
     height: 40px;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-color: red;
 }
 
 .headerul{
-    margin: 0 0 0 15px;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .headerul li{
     margin: 0 16px;
@@ -58,7 +70,6 @@ header.header{
     display: flex;
     align-items: center;
     font-size: 18px;
-    margin: 22px 0 0 35px;
     border: 0px solid;
 }
 .container button{
@@ -75,7 +86,6 @@ header.header{
     display: flex;
     align-items: center;
     font-size: 18px;
-    margin: 22px 0 0 0;
     border: 0px solid;
     background-color: teal;
     color: white;

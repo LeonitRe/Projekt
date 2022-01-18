@@ -6,13 +6,44 @@ body{
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: teal;
+}
 .style{
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 30vh;
-    background-color: teal;
+}
+.style img{
+    height: 40px;
+    margin-top: -4px;
+    margin-left: -200px;
+}
+.table ul{
+    display: flex;
+    flex-direction: row;
+    height: 98%;
+    margin: 0;
+    width: 40vw;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+    margin-left: -500px;
+}
+.table a:hover{
+    color: lightblue;
+}
+.table a{
+    text-decoration: none;
+    color:black;
 
 }
 .future{
@@ -25,7 +56,7 @@ form .futurep{
     color: blue;
 }
 form .futureh2{
-     display: flex;
+    display: flex;
     justify-content: center;
     font-size: 30px;
     
@@ -89,7 +120,7 @@ form .futureh2{
 .up1{
     position: absolute;
     left: 125px;
-    top: 320px;
+    top: 205px;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -118,7 +149,7 @@ form .futureh2{
 .up2{
     position: absolute;
     left: 440px;
-    top: 320px;
+    top: 205px;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -131,7 +162,7 @@ form .futureh2{
 .up3{
     position: absolute;
     left: 745px;
-    top: 320px;
+    top: 205px;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -144,7 +175,7 @@ form .futureh2{
 .up4{
     position: absolute;
     left: 1050px;
-    top: 320px;
+    top: 205px;
     width: 85px;
     height: 85px;
     border-radius: 20px;
@@ -403,5 +434,89 @@ form .text{
     border-bottom-right-radius: 50px;
     border: hidden;
 }
+.price-container{
+    height: 270vh;
+}
+.text-container{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid;
+}
+.text-container p{
+    color: blue;
+    font-size: 22px;
+}
+.text-container h2{
+    font-size: 40px;
+    margin-top: 5px;
 
-
+}
+.button-container{
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monthly-text{
+    height: 60px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 40px;
+    background-color: lightgray;
+}
+.monthly-text:hover{
+    background-color: gray;
+    color: white;
+}
+.monthly-container{
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.monthly{
+    height: 95%;
+    width: 25vw;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;    
+    box-shadow: 0px 0px 2em -15px black;
+    transition: 0.5s;
+}
+.monthly:hover{
+    margin-top: -20px;
+}
+#monthly-p2{
+    font-size: 28px;
+    margin-top: 15px;
+    color: gray;
+}
+.monthly h2{
+    font-size: 60px;
+    margin-top: -15px;
+}
+#month{
+    margin-top: -50px;
+    margin-bottom: 60px;
+    font-size: 19px;
+    color: gray;
+}
+#monthly-p{
+    font-size: 21px;
+    margin-top: -10px;
+    color: gray;
+}
+.inset-shadow{
+    height: 82%;
+    background-color: whitesmoke;
+}
