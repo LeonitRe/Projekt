@@ -17,6 +17,7 @@ form{
     height: 65px;
     position: absolute;
     top: 15px;
+    
 }
 .form{
     display: flex;
@@ -100,4 +101,9 @@ p{
     left: 100px;
     top: 245px;
     font-size: 13px;
+}
+.errorlogin{
+    color: red;
+    margin-top: 200px;
+    margin-left: 100px;
 }
